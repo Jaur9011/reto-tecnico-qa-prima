@@ -1,0 +1,22 @@
+# Dependencias
+node_modules/
+
+# Reportes y resultados de ejecución
+reports/
+test-results/
+
+# Configuración local (puede tener datos sensibles); se versiona solo .env.example
+.env
+
+# IDE: se comparten solo las recomendaciones y ajustes del proyecto
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+# Archivos generados por extensiones de VS Code (no forman parte del reto)
+.github/modernize/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db

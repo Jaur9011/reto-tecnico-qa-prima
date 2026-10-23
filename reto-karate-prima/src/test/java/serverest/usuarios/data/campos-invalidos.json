@@ -1,0 +1,11 @@
+[
+  { "caso": "nome vacío",             "campo": "nome",          "valor": "",                  "mensaje": "nome não pode ficar em branco" },
+  { "caso": "nome numérico",          "campo": "nome",          "valor": 123,                 "mensaje": "nome deve ser uma string" },
+  { "caso": "email vacío",            "campo": "email",         "valor": "",                  "mensaje": "email não pode ficar em branco" },
+  { "caso": "email sin formato",      "campo": "email",         "valor": "correo.sin.arroba", "mensaje": "email deve ser um email válido" },
+  { "caso": "email numérico",         "campo": "email",         "valor": 2024,                "mensaje": "email deve ser uma string" },
+  { "caso": "password vacío",         "campo": "password",      "valor": "",                  "mensaje": "password não pode ficar em branco" },
+  { "caso": "password numérico",      "campo": "password",      "valor": 123456,              "mensaje": "password deve ser uma string" },
+  { "caso": "administrador inválido", "campo": "administrador", "valor": "si",                "mensaje": "administrador deve ser 'true' ou 'false'" },
+  { "caso": "administrador booleano", "campo": "administrador", "valor": true,                "mensaje": "administrador deve ser 'true' ou 'false'" }
+]

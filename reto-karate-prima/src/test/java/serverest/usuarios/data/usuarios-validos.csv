@@ -1,0 +1,5 @@
+caso,nome,password,administrador
+administrador estándar,Ana García,Pwd12345,true
+usuario no administrador,Luis Torres,Pwd67890,false
+nombre con tildes y ñ,María Peña Ñúñez,Clave2026,true
+nombre largo,Juan Carlos de la Cruz Mendoza Quispe,Segura99,false

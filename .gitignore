@@ -1,0 +1,30 @@
+# Solo se versionan los proyectos del reto y los archivos de la raíz
+/*
+!/.gitignore
+!/README.md
+!/.github/
+!/scripts/
+!/reto-karate-prima/
+!/reto-playwright-prima/
+
+# Los workflows van en la raíz (.github/workflows/ci.yml); GitHub no ejecuta los de subcarpetas
+/reto-karate-prima/.github/
+/reto-playwright-prima/.github/
+
+# Dependencias y compilación
+node_modules/
+target/
+
+# Reportes y resultados generados
+reports/
+test-results/
+*.log
+
+# Configuración local
+.env
+
+# IDE / sistema
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
