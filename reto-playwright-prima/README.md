@@ -38,8 +38,8 @@ Suite de pruebas automatizadas de extremo a extremo para [Sauce Demo](https://ww
 ## Instalación
 
 ```bash
-git clone https://github.com/<tu-usuario>/<repositorio>.git
-cd <repositorio>/reto-playwright-prima
+git clone https://github.com/Jaur9011/reto-tecnico-qa-prima.git
+cd reto-tecnico-qa-prima/reto-playwright-prima
 npm ci                              # instala las versiones exactas de package-lock.json
 npx playwright install chromium     # descarga el navegador
 ```

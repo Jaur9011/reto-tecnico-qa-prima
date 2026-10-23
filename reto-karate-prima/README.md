@@ -31,8 +31,8 @@ Suite de pruebas automatizadas para el CRUD de usuarios de [ServeRest](https://s
 ## Instalación
 
 ```bash
-git clone https://github.com/<tu-usuario>/<repositorio>.git
-cd <repositorio>/reto-karate-prima
+git clone https://github.com/Jaur9011/reto-tecnico-qa-prima.git
+cd reto-tecnico-qa-prima/reto-karate-prima
 mvn -q test-compile   # descarga dependencias y compila
 ```
 
